@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #FFD54F;
+}
+#countdown{
+    color: #000;
+    font-size:7em;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    animation: up-down 5s linear infinite;
+}
+p{
+    font-size: 24px;
+}
+div span{
+    font-size: 3em;
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(0) ;
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+}
