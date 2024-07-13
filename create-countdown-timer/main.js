@@ -24,4 +24,4 @@ function secondPass(){
     } else {
         clearInterval(countDown);
         countDiv.innerHTML = "Done!!";
-    }};
+    }};.
