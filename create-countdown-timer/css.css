@@ -10,7 +10,13 @@ body{
     flex-direction: column;
     height: 100vh;
     background: #FFD54F;
-}
+}body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #FFD54F;
 #countdown{
     color: #000;
     font-size:7em;
@@ -56,4 +62,5 @@ div span{
 ////////////////
 //////////////////
 //////////
+
 
